@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+html, body{
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+
+canvas {
+    outline: none;
+    border: none;
+}
+
+
+#info {
+    position: absolute;
+    font-size: 25px;
+    width: 100%;
+    font-weight: 600;
+    color: black;
+    z-index: 100;
+    display: block;
+}
